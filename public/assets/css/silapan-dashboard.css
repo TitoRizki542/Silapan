@@ -1,0 +1,54 @@
+body {
+    font-family: "Figtree";
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 800 !important;
+}
+
+.nav-link.active {
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity));
+    color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+h2.swal2-title {
+    font-weight: normal;
+}
+
+.swal2-timer-progress-bar {
+    background-color: rgba(25, 135, 84, 0.8);
+}
+
+.fw-bold {
+    font-weight: 900 !important;
+}
+
+select.datatable-selector,
+input.datatable-input {
+    border-radius: 50rem !important;
+}
+
+table.datatable-table {
+    vertical-align: middle !important;
+}
+
+table.datatable-table > tbody > tr,
+table.datatable-table > tbody > tr > td {
+    vertical-align: inherit !important;
+}
+
+.card {
+    overflow: hidden !important;
+}
+
+.card > .card-header {
+    background-color: #d1e7dd !important;
+}
+
+.column-gap-0 {
+    -moz-column-gap: 0 !important;
+    column-gap: 0 !important;
+}

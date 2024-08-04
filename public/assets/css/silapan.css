@@ -1,0 +1,25 @@
+body {
+    font-family: "Figtree";
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 800 !important;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
+    font-weight: 800 !important;
+    color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+h2.swal2-title {
+    font-weight: normal;
+}
+
+.swal2-timer-progress-bar {
+    background-color: rgba(25, 135, 84, 0.8);
+}
+
+.fw-bold {
+    font-weight: 900 !important;
+}
